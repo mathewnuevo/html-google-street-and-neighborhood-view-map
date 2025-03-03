@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street View & Neighborhood Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCE8lWre8CtNUQywBXlGGS0HdjWsvAA1as"></script>
+</head>
+<body>
+    <h1>Street View & Neighborhood Map</h1>
+    
+    <form id="search-form">
+        <input type="text" id="location" placeholder="Enter a location" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="map"></div>
+    <div id="street-view"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
